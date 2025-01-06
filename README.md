@@ -13,8 +13,8 @@
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/rss-news-summarizer.git
-    cd rss-news-summarizer
+    git clone https://github.com/Andyzr/RssLlm.git
+    cd RssLlm
     ```
 
 2. Install the required dependencies:
