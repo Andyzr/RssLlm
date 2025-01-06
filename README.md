@@ -2,6 +2,8 @@
 
 📰 A Streamlit web application that provides AI-powered summaries of your favorite RSS feeds using Google's Gemini model.
 
+[Demo](https://rssllm.streamlit.app/)
+
 ## Features
 
 - Fetch articles from any RSS feed URL.
