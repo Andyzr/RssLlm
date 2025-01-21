@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import feedparser
 import google.generativeai as genai
@@ -72,7 +73,7 @@ def main():
         
     if st.button("Fetch and Summarize"):
         # Use the API key from secrets.toml if available, otherwise use the provided API key
-        api_key = api_key or st.secrets.get("GEMINI_API_KEY")
+        api_key = api_key or os.getenv("GEMINI_API_KEY") or st.secrets.get("GEMINI_API_KEY")
         
         if not api_key:
             st.error("Please enter your Gemini API key.")
